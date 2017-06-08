@@ -1,0 +1,81 @@
+/*
+Theme Name: Function
+Author: Seth J. Connell
+Description: A completely functional template for Wordpress.
+Version: 1.0
+*/
+
+* {
+	font-family: sans-serif;
+}
+
+
+@media screen and (min-width: 480px) {
+    .content{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+
+#title {
+    color: #34B3A0;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: auto;
+}
+
+#desc {
+	color: black;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#header{}
+
+.content{
+    width: 50%;
+    margin: auto;
+}
+
+.subtitles {
+	text-transform: capitalize;
+}
+
+.site-nav {
+	margin: auto;
+}
+
+.site-nav ul {
+	display: inilne-block;
+    list-style:none;
+    margin: auto;
+    padding:0;
+    text-align: center;
+	width: 50%;
+}
+
+.site-nav ul li {
+	display: inline;
+	list-style: none;
+}
+
+/* site header menu */
+
+nav ul li a:link, nav ul li a:visited {
+	display:inline-block;
+    padding:10px;
+	text-decoration: none;
+	color: #34B3A0; 
+}
+
+nav ul li a:hover {
+	background-color: #34B3A0;
+	color: white;
+}
+
+.menu {
+	text-align: center;
+}
